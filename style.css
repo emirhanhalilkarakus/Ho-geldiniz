@@ -1,0 +1,43 @@
+body {
+    background-color: #f0f0f0;
+}
+
+.welcome-container {
+    margin-top: 10%;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+.contact-info {
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+
+.contact-container {
+    margin-top: 40px;
+    text-align: center;
+}
